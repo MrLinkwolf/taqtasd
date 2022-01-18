@@ -1,0 +1,255 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+  .header-block .navigation {
+    width: 378.66666667px;
+  }
+  .what-we-do-item {
+    width: 50%;
+  }
+  .who-we-are-item .desc {
+    width: 60%;
+  }
+}
+@media (max-width: 900px) {
+  .spacer {
+    margin-top: 150px;
+  }
+  .first-spacer {
+    margin-top: 100px;
+  }
+  .item-spacer {
+    margin-top: 50px;
+  }
+  .last-spacer {
+    margin-top: 200px;
+  }
+  .container {
+    max-width: 768px;
+  }
+  .b-t {
+    font-size: 48px;
+  }
+  .m-t {
+    font-size: 18px;
+  }
+  .desc {
+    font-size: 15px;
+  }
+  .who-we-are-item .desc {
+    width: 50%;
+  }
+  .be-in-trand-row {
+    flex-wrap: wrap;
+  }
+  .be-in-trand-text-block {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .be-in-trand-img-block {
+    width: 100%;
+    text-align: center;
+  }
+  .be-in-trand-text-block-bottom-item {
+    width: 50%;
+  }
+  .make-order-item {
+    width: 100%;
+  }
+  .buttons {
+    flex-wrap: wrap;
+  }
+  .buttons p {
+    width: 100%;
+    text-align: center;
+  }
+  .inputs input {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .make-order-items .buttons p {
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  .portfolio-items {
+    justify-content: center;
+  }
+  .portfolio-item {
+    margin: 15px;
+  }
+  .inputs-success {
+    height: 432px;
+  }
+}
+@media (max-width: 808px) {
+  .b-t {
+    font-size: 38px;
+  }
+  .container {
+    max-width: 540px;
+  }
+  .what-we-do-item {
+    width: 100%;
+  }
+  .who-we-are-item .desc {
+    width: 100%;
+  }
+  .who-we-are-item {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .who-we-are-item .image {
+    margin-bottom: 30px;
+  }
+  .who-we-are-item .desc {
+    order: 1;
+  }
+  .be-in-trand-row .be-in-trand-text-block {
+    margin-top: 20px;
+    order: 1;
+  }
+  .be-in-trand-text-block__top {
+    margin-bottom: 30px;
+  }
+  .be-in-trand-text-block .m-t {
+    margin-bottom: 20px;
+  }
+  .burger {
+    display: block;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+  .burger span {
+    width: 30px;
+    height: 2px;
+    display: block;
+    background: #f3f3f3;
+    transition: 0.3s all ease-in-out;
+  }
+  .burger span:nth-child(1) {
+    position: absolute;
+    top: 6px;
+    left: 0;
+  }
+  .burger span:nth-child(2) {
+    position: absolute;
+    top: 12px;
+    left: 0;
+  }
+  .burger span:nth-child(3) {
+    position: absolute;
+    top: 18px;
+    left: 0;
+  }
+  .b-active span:nth-child(1) {
+    top: 12px;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  .b-active span:nth-child(2) {
+    top: 12px;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  .b-active span:nth-child(3) {
+    top: 12px;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  .header-block .navigation {
+    display: none;
+  }
+  .header {
+    position: relative;
+    z-index: 999;
+    padding: 28.5px 0;
+  }
+  .pre-header {
+    position: fixed;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    transition: 0.3s all ease-out;
+    z-index: 0;
+  }
+  .header-s-block .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-active {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  .navigation a:first-child {
+    margin-top: 0;
+  }
+  .navigation a {
+    margin-top: 20px;
+  }
+  .news-items {
+    justify-content: center;
+  }
+}
+@media (max-width: 560px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .be-in-trand-img-block img {
+    width: 100%;
+  }
+  .be-in-trand-text-block-bottom-item {
+    width: 100%;
+  }
+  .b-t {
+    font-size: 28px;
+  }
+  .spacer {
+    margin-top: 100px;
+  }
+  .first-spacer {
+    margin-top: 50px;
+  }
+  .item-spacer {
+    margin-top: 30px;
+  }
+  .last-spacer {
+    margin-top: 150px;
+  }
+  .submit {
+    flex-wrap: wrap;
+  }
+  .privacy-policy {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .inputs input {
+    margin-bottom: 20px;
+  }
+  .buttons p {
+    margin-bottom: 20px;
+  }
+  .cookie {
+    flex-wrap: wrap;
+  }
+  .cookie-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .inputs-success {
+    height: 372px;
+  }
+  .news-img {
+    width: 100%;
+  }
+  .news-img img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=./media.css.map */
